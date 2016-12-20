@@ -453,6 +453,26 @@
     	    	         cellTemplate: '<div class="ui-grid-cell-contents" title="proto">{{grid.appScope.protoCheck(row, col)}}</div>' 
 		    },
 		    {field: 'node', displayName: 'Node'},
+
+                    /* ISUP fields */
+                    {field: 'correlation_id', displayName: 'Correlation Id'},
+                    {field: 'opc', displayName: 'MTP OPC'},
+                    {field: 'dpc', displayName: 'MTP DPC'},
+                    {field: 'cic', displayName: 'ISUP CIC'},
+                    {field: 'called_number', displayName: 'Called Number'},
+                    {field: 'called_ton', displayName: 'Called Nature of address'},
+                    {field: 'called_npi', displayName: 'Called Numbering plan Indicator'},
+                    {field: 'called_inn', displayName: 'Internal Network Number indicator'},
+                    {field: 'calling_number', displayName: 'Calling Number'},
+                    {field: 'calling_ton', displayName: 'Calling Nature of address'},
+                    {field: 'calling_npi', displayName: 'Calling Numbering plan Indicator'},
+                    {field: 'calling_restrict', displayName: 'Calling presentation restricted'},
+                    {field: 'calling_screened', displayName: 'Calling Screening indicator'},
+                    {field: 'calling_category', displayName: 'Calling party\'s category'},
+                    {field: 'cuase_itu_class', displayName: 'ITU Cause Class'},
+                    {field: 'cause_itu_cause', displayName: 'ITU Cause'},
+                    {field: 'event_num', displayName: 'ISUP Event'},
+
 		    {field: 'custom_field1', displayName: 'Custom F1', visible: false},
 		    {field: 'custom_field2', displayName: 'Custom F2', visible: false},
 		    {field: 'custom_field3', displayName: 'Custom F3', visible: false}

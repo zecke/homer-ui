@@ -202,7 +202,8 @@ angular.module('homer.widgets.quicksearch', ['adf.provider'])
 	  $scope.type_transaction = [
  		{ name:'call', value:'CALLS'},
     		{ name:'registration', value:'REGISTRATIONS'},
-    		{ name:'rest', value:'OTHER'}
+                { name:'isup', value:'ISUP'},
+    		{ name:'rest', value:'OTHER'},
 	  ];
 
 
